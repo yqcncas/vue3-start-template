@@ -2,8 +2,8 @@ import { RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    component: () => import('@/views/front/index.vue')
+    path: '/admin',
+    component: () => import('../../views/admin/index.vue')
   }
 ]
 
